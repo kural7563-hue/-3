@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #AE1332;
+    color: white;
+    font-family: DM Sans;
+}
+
+.title{
+font-weight: 500;
+font-style: Medium;
+font-size: 40px;
+line-height: 44px;
+letter-spacing: -4%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+width: 624px;
+height: 88px;
+
+
+}
+
+.des{
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -4%;
+text-align: center;
+vertical-align: middle;
+width: 509px;
+height: 54px;
+margin-left: 50px;
+
+}
+
+.text{
+    margin: 80px 450px;
+}
+.cards{
+display: flex;
+justify-content: space-around;
+}
+
+.card{
+    width: 389px;
+height: 128px;
+border-radius: 20px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.btn_r{
+    width: 136px;
+height: 48px;
+background-color: #AE1332;
+border-radius: 200px;
+border: none;
+color: white;
+}
+
+.btn_g{
+    width: 136px;
+height: 48px;
+background-color: #A1C864;
+border-radius: 200px;
+border: none;
+color: white;
+}
+
+.btn_y{
+    width: 136px;
+height: 48px;
+background-color: #F5CE13;
+border-radius: 200px;
+border: none;
+color: white;
+}
+
+.r_text{
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -4%;
+vertical-align: middle;
+width: 166px;
+height: 54px;
+color: black;
+
+}
